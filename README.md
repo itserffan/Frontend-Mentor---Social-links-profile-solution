@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [View solution on Frontend Mentor](https://www.frontendmentor.io/solutions/social-links-profile-responsive-design-with-html-and-css-9BkY5Z8FQ)
+- Solution URL: [View solution on Frontend Mentor](https://www.frontendmentor.io/solutions/frontend-mentor---social-links-profile-solution-j1FdAkF-nB)
 - Live Site URL: [Live site hosted on GitHub Pages](https://frontendmentor-social-links-proffile.netlify.app/)
 
 ## My process
