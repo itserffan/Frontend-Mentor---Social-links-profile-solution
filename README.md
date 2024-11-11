@@ -83,4 +83,4 @@ I aim to further explore complex responsive design techniques, including CSS Gri
 ## Author
 
 - Frontend Mentor - [@erfansoleimanii](https://www.frontendmentor.io/profile/itserffan)
-- GitHub - [@itserffan](https://github.com/your-github-itserffan)
+- GitHub - [@itserffan](https://github.com/itserffan)
