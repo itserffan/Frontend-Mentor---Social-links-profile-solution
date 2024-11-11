@@ -1,0 +1,100 @@
+/* 
+---- 01 TYPOGRAPHGY SYSTEM
+
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+
+
+
+---- 07 WHITESPACE
+
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "inter";
+  background-color: hsl(0, 0%, 8%);
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: hsl(0, 0%, 12%);
+  width: 20%;
+  margin: 0 auto;
+  padding: 4.8rem;
+  text-align: center;
+  border-radius: 2rem;
+
+  gap: 3rem;
+}
+
+img {
+  width: 10rem;
+  border-radius: 50%;
+  margin-bottom: 2.4rem;
+}
+
+.info {
+  gap: 1.2rem;
+}
+
+.name {
+  font-size: 3.2rem;
+  font-weight: 600;
+  color: hsl(0, 0%, 100%);
+}
+
+.nationality {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+  color: hsl(75, 94%, 57%);
+}
+
+.job {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: hsl(0, 0%, 100%);
+}
+
+.btns {
+  width: 100%;
+  gap: 1.8rem;
+}
+.btns a {
+  width: 100%;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 20%);
+  padding: 1.6rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btns a:hover {
+  color: hsl(0, 0%, 8%);
+  background-color: hsl(75, 94%, 57%);
+}

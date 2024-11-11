@@ -1,0 +1,121 @@
+/* Mobile screens (up to 600px) */
+@media (max-width: 600px) {
+  .container {
+    width: 90%;
+    padding: 3.2rem;
+    margin: 4rem auto;
+  }
+
+  .info img {
+    width: 8rem;
+    height: 8rem;
+    margin-bottom: 1.6rem;
+  }
+
+  .name {
+    font-size: 2.4rem;
+  }
+  .nationality,
+  .job {
+    font-size: 1.6rem;
+  }
+
+  .btns {
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+  .btns a {
+    padding: 1.2rem;
+    font-size: 1.4rem;
+  }
+}
+
+/* Tablet screens (601px to 900px) */
+@media (min-width: 601px) and (max-width: 900px) {
+  .container {
+    width: 45%;
+    padding: 4rem;
+    margin: 6rem auto;
+  }
+
+  .info img {
+    width: 9rem;
+    height: 9rem;
+  }
+
+  .name {
+    font-size: 2.8rem;
+  }
+  .nationality,
+  .job {
+    font-size: 1.6rem;
+  }
+
+  .btns {
+    gap: 1.5rem;
+  }
+  .btns a {
+    padding: 1.4rem;
+    font-size: 1.5rem;
+  }
+}
+
+/* Large screens (901px to 1400px) */
+@media (min-width: 901px) and (max-width: 1400px) {
+  .container {
+    width: 35%;
+    padding: 4.8rem;
+    margin: 8rem auto;
+  }
+
+  .info img {
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .name {
+    font-size: 3rem;
+  }
+  .nationality,
+  .job {
+    font-size: 1.8rem;
+  }
+
+  .btns {
+    gap: 1.8rem;
+  }
+  .btns a {
+    padding: 1.6rem;
+    font-size: 1.6rem;
+  }
+}
+
+/* Extra large screens (above 1400px) */
+@media (min-width: 1400px) {
+  .container {
+    width: 30%;
+    padding: 6rem;
+    margin: 10rem auto;
+  }
+
+  .info img {
+    width: 12rem;
+    height: 12rem;
+  }
+
+  .name {
+    font-size: 3.6rem;
+  }
+  .nationality,
+  .job {
+    font-size: 2rem;
+  }
+
+  .btns {
+    gap: 2rem;
+  }
+  .btns a {
+    padding: 1.8rem;
+    font-size: 1.8rem;
+  }
+}
