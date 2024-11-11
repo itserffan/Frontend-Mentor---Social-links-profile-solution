@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot of Social Links Profile Solution](./design/desktop-design.jpg)
+![Screenshot of Social Links Profile Solution](.design/desktop-design.jpg)
 
 ### Links
 
